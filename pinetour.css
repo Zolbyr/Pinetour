@@ -21,6 +21,7 @@
   left: 0;
   z-index: -1;
   width: 100%;
+  height: 100%;
 }
 
 .header {
@@ -374,6 +375,10 @@
   z-index: -1;
 }
 
+.card1:hover {
+  background-color: gray;
+}
+
 .card1 img {
   height: 36px;
   width: 36px;
@@ -382,6 +387,7 @@
 .card1header h1 {
   font-size: 18px;
   padding-top: 8px;
+  margin-left: 50px;
 }
 
 .card1bot {
@@ -413,6 +419,10 @@
   justify-content: space-around;
 }
 
+.card-boxes p {
+  margin-left: 30px;
+}
+
 .card1bot2 {
   /* width: 336px; */
   /* height: fit-content; */
@@ -424,7 +434,8 @@
 
 .card1bot2 div {
   display: flex;
-  gap: 5px;
+  gap: 20px;
+  display: flex;
 }
 
 .cardbots {
